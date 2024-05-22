@@ -1,78 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Zequn Lin - Personal Website</title>
-		<link rel="stylesheet" href="styles.css">
-		<!-- Link to external CSS file -->
-		<style>body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; } header { background: #333; color: #fff; padding: 10px 0; text-align: center; } nav ul { list-style: none; padding: 0; } nav ul li { display: inline; margin: 0 10px; } nav ul li a { color: #fff; text-decoration: none; } .container { padding: 20px; } section { margin-bottom: 20px; } footer { background: #333; color: #fff; text-align: center; padding: 10px 0; position: fixed; width: 100%; bottom: 0; }</style>
-	</head>
-	<body>
-		<header>
-			<h1>Welcome to Zequn Lin's Personal Website</h1>
-			<nav>
-				<ul>
-					<li>
-						<a href="#about">About Me</a>
-					</li>
-					<li>
-						<a href="#education">Education</a>
-					</li>
-					<li>
-						<a href="#publications">Research</a>
-					</li>
-					<li>
-						<a href="#contact">Contact</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<div class="container">
-			<section id="about">
-				<h2>About Me</h2>
-				<p>Welcome to my website! I am Zequn Lin, a Ph.D. student in the joint program between Westlake University and Fudan University, and my mentor is
-					<a href="https://www.westlake.edu.cn/faculty/leihan-tang.html">Prof. Lei-Han Tang</a>. My research interests span
-					machine learning, stochastic dynamics, and non-equilibrium statistical physics. I am an avid fan of Tim Duncan and the San Antonio Spurs. Visit my site for more on my work.</section>
-			<section id="education">
-				<h2>Education</h2>
-				<ul>
-					<li>2024 - Present: Ph.D. student in physics, Fudan University</li>                                  
-					<li>2024: B.S. in systems science and engineering, Beijing Normal University</li>
-				</ul>
-			</section>
-			<section id="publications">
-				<h2>Research</h2>
-				<ul>
-					<li>
-						<strong>
-							<u>Zequn Lin</u>
-						</strong>, Zhaofan Lu, Zengru Di,
-						<a href="https://jamestang23.github.io/">Ying Tang</a>. (2023).
-						<em>Learning noise-induced transitions by multi-scaling reservoir computing</em>. arXiv preprint arXiv:2309.05413.
-						<a href="https://arxiv.org/abs/2309.05413" target="_blank">Read more</a>
-					</li>
-				</ul>
-			</section>
-			<section id="contact">
-				<h2>Contact</h2>
-				<p>You can reach me through the following channels:</p>
-				<ul>
-					<li>Email:
-						<a href="mailto:lzqbnu@gmail.com">mail</a>
-					</li>
-					<li>Twitter:
-						<a href="https://x.com/likexin386658" target="_blank">@twitter</a>
-					</li>
-					<li>Google Scholar:
-						<a href="https://scholar.google.com/citations?user=yPegHCUAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>
-					</li>
-				</ul>
-			</section>
-		</div>
-		<footer>
-			<p>&copy; 2024 Zequn Lin. All rights reserved.</p>
-		</footer>
-	</body>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zequn Lin - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to external CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #C4CED4; /* 银色背景 */
+            color: #000000; /* 黑色文本 */
+        }
+        header {
+            background: #000000; /* 黑色背景 */
+            color: #C4CED4; /* 银色文本 */
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #C4CED4; /* 银色链接文本 */
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+            background-color: #C4CED4; /* 银色背景 */
+            color: #000000; /* 黑色文本 */
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #000000; /* 黑色背景 */
+            color: #C4CED4; /* 银色文本 */
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #000000; /* 黑色链接文本 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Zequn Lin's Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#publications">Research</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my website! I am Zequn Lin, a Ph.D. student in the joint program between Westlake University and Fudan University, and my mentor is <a href="https://www.westlake.edu.cn/faculty/leihan-tang.html">Prof. Lei-Han Tang</a>. My research interests span machine learning, stochastic dynamics, and non-equilibrium statistical physics. I am an avid fan of Tim Duncan and the San Antonio Spurs. Visit my site for more on my work.</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>2024 - Present: Ph.D. student in physics, Fudan University</li>
+                <li>2024: B.S. in systems science and engineering, Beijing Normal University</li>
+            </ul>
+        </section>
+        <section id="publications">
+            <h2>Research</h2>
+            <ul>
+                <li><strong><u>Zequn Lin</u></strong>, Zhaofan Lu, Zengru Di, <a href="https://jamestang23.github.io/">Ying Tang</a>. (2023). <em>Learning noise-induced transitions by multi-scaling reservoir computing</em>. arXiv preprint arXiv:2309.05413. <a href="https://arxiv.org/abs/2309.05413" target="_blank">Read more</a></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me through the following channels:</p>
+            <ul>
+                <li>Email: <a href="mailto:lzqbnu@gmail.com">mail</a></li>
+                <li>Twitter: <a href="https://x.com/likexin386658" target="_blank">@twitter</a></li>
+                <li>Google Scholar: <a href="https://scholar.google.com/citations?user=yPegHCUAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Zequn Lin. All rights reserved.</p>
+    </footer>
+</body>
 </html>
